@@ -1,5 +1,5 @@
 const core = require('@aws-cdk/core');
-const PipelineConstruct = require('@bug-cdk/constructs/PipelineConstruct');
+const PipelineConstruct = require('./PipelineConstruct');
 
 const app = new core.App();
 
